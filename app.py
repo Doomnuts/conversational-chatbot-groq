@@ -20,11 +20,11 @@ def main():
     # Display the Groq logo
     spacer, col = st.columns([5, 1])  
     with col:  
-        st.image('groqcloud_darkmode.png')
+        st.image('banner.png')
 
     # The title and greeting message of the Streamlit application
-    st.title("Chat with Groq!")
-    st.write("Hello! I'm your friendly Groq chatbot. I can help answer your questions, provide information, or just chat. I'm also super fast! Let's start our conversation!")
+    st.title("TITLE")
+    st.write("placeholder for message that inspire great hope")
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
