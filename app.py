@@ -30,7 +30,7 @@ def main():
     st.sidebar.title('Customization')
     model = st.sidebar.selectbox(
         'Choose a model',
-        ['llama3-8b-8192', 'mixtral-8x7b-32768', 'gemma-7b-it']
+        ['llama3-8b-8192', 'mixtral-8x7b-32768', 'llama3-70b-8192']
     )
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
